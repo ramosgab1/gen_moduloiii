@@ -46,7 +46,7 @@
 }
 
 .menu li a:hover { /* Muda tamanho e cor do menu quando o mouse tá em cima. */
-  font-size: 25px;
+  font-size: 20px;
   color: #c83e4d;
 }
 
@@ -65,6 +65,10 @@
 
 .center {
   text-align: center;
+}
+
+.item-center{
+    align-items: center;
 }
 
 /* Text align = esquerda */
@@ -101,6 +105,15 @@
 .mb-50 {
   padding: 50px;
 }
+
+.forms-container{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    padding: 10px;
+}
 .footer-container{
     display:flex;
     flex-direction: row;
@@ -118,6 +131,12 @@
 .footer-icons-square{
     height: 40px;
     width: 40px;
+    margin-top: 1px;
+    padding: 5px;
+}
+.footer-icons2-square{
+    height: 60px;
+    width: 60px;
     margin-top: 1px;
     padding: 5px;
 }
