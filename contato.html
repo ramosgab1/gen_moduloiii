@@ -5,19 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fale conosco!</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
 </head>
 
-<body>
+<body class="body">
     <div>
-        <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./contato.html">Fale conosco</a></li>
-        </ul>
+        <div>
+            <ul class="menu center">
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="">Currículo</a></li>
+              <li><a href="">Projetos</a></li>
+              <li><a href="./contato.html" class="current">Contato</a></li>
+            </ul>
+          </div>
     </div>
-    <h1>Fale conosco.</h1>
-        <hr /> 
-        <h2>Formulário.</h2>
-        <form>
+    <h1 class="title center"><span class="underline">Fale com</span>igo!</h1>
+        <form class="center body-text">
             <label for="nome">Nome:</label><br>
             <input type="text" id="nome" name="nome"><br>
             <label for ="sobrenome">Sobrenome:</label><br>
@@ -30,10 +37,6 @@
             </div>
             <input type="submit" value="Enviar">
         </form>
-    </div>
-    <div>
-        <h2>Endereço.</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31603.65513202165!2d-34.912780996998734!3d-8.054789374519359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab187b0ffffff7%3A0x60292af9f27327e2!2sMirabilandia!5e0!3m2!1sen!2sbr!4v1707167565604!5m2!1sen!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 </body>
 
